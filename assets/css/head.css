@@ -1,0 +1,101 @@
+        .container.custom-container-width 
+        {
+            max-width: 4640px;       // 最後內容寬會是 4610px
+        }
+/*.le{
+    display: inline-block;
+    width:1500px;
+    height: 3200px;
+    background-color: 000;
+    text-align: center;
+}*/
+/*.ri{
+    display: inline-block;
+    width:32%;
+    height: 60%;
+    background-color: 000;
+    text-align: center;
+}*/
+          .bg
+          {
+            background-image: url(../img/snow.gif);
+            background-attachment: fixed;
+            background-size: cover;
+          }
+          .flextd
+          {
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-align: left;
+            flex-direction: column;
+         }
+        .head 
+        {
+           /* background: #049;*/
+            padding-top: 1%;
+            padding-bottom: 1%;
+          /*  padding: auto;*/
+
+        }
+        .na 
+        {
+            border: #E4E3E5 2px solid;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        .cen 
+        {
+            text-align: center;
+            /*margin-right: 100px*/
+        }
+        .img 
+        {
+            width: 200px;
+            height: 200px;
+            border: #58444B 1px solid;
+            transform: scale(1,1);
+            transition: all 0.5s ease-out;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 5%;
+            position: center;
+        }
+        .chin_na 
+        {
+            font-family: Microsoft JhengHei;
+            color: #E4E3E5;
+            font-size: 35px;
+        }
+        .myname 
+        {
+            width: 360px;
+            height: 100px;
+            margin-top: 4%;
+            margin-bottom: 2%;
+            margin-left: 1%
+            vertical-align : middle;
+        }
+        .repre_sen
+        {
+            font-family: Microsoft JhengHei;
+            color: #E4E3E5;
+            font-size: 20px;
+        }
+        .about 
+        {
+            font-family: Microsoft JhengHei;
+            color: #E4E3E5;
+            font-size: 16px;
+            line-height: 26px;
+            margin: 1% 5%;
+        }
+        .commu_site 
+        {
+            border-top: #E4E3E5 1px solid;
+        }
+        .icon 
+        {
+            width: 40px;
+            margin: 2%;
+        }
